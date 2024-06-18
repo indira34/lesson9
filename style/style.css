@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   min-height: 90px;
+    
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 700px; 
+}
+.red{
+    background-color: red;
+    height: 100%;
+}
+.yellow{
+    background-color: yellow;
+    height: 100%;
+}
+.green{
+    background-color: green;
+    height: 100%;
+}
+.blue{
+    background-color: blue;
+    height: 100%;
+}
+.row {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.col-3{
+    padding: 15px;
+    width: 25%;
+}
+.col-9{
+    padding: 15px;
+    width: 75%;
+}
+.col-6{
+    width: 50%;
+    padding: 15px;
+}
+.col-12{
+    padding: 15px;
+    width: 100%;
+
+}
